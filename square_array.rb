@@ -1,3 +1,8 @@
 def square_array(array)
-  # your code here
-end
+  arr =[]
+  array.each do |num|
+  num = num*num
+  arr.append(num) #append is the same as push or <<
+  end 
+  return arr
+  end 
